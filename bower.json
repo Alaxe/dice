@@ -1,0 +1,24 @@
+{
+  "name": "testing-things",
+  "authors": [
+    "Alexander Crustev <aleks.tcr@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "three.js": "mrdoob/three.js",
+    "cannon.js": "schteppe/cannon.js#^0.6.2"
+  }
+}
