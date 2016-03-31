@@ -106,7 +106,7 @@ function add_plane() {
 function add_die() {
     var geometry = new THREE.IcosahedronGeometry(1),
         material = new THREE.MeshPhongMaterial({
-            map: new THREE.TextureLoader().load('../textures/d20.png'),
+            map: new THREE.TextureLoader().load('textures/d20.png'),
             specular: 0x303030
             //shininess: 1005
         }),
